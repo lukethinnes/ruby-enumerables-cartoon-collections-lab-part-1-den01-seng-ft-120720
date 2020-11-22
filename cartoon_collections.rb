@@ -6,10 +6,6 @@ end
 
 def list_dwarves(array)
   array.each_with_index do |item, index|
-    count=0
-    if count<index
       puts "#{index}. {item}"
-      count+=1
-    end
   end
 end
